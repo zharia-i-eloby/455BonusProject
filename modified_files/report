@@ -1,0 +1,27 @@
+Bonus Project
+Due: April 23, 2020
+Zharia Eloby, C00276525
+
+1.
+I didn't get to working on the system calls for this project.
+
+2a.
+I manage the disk by using the pointers to read and write from the disk.
+
+2b. 
+For file allocation, I check the file size to see which type of header (direct, indirect, or double) is needed. Then based on that, I make a pointer for each sector of the type that is needed.
+
+2c.
+I didn't complete this part of the project.
+
+2d. 
+I did not use any data structures for this part of the project.
+
+3.
+I didn't finish Task 1 and didn't get to start Task 2 or 3. This is because I've been focusing on other projects for both this class and other classes. 
+
+4.
+For the part of the project that I did work on, I did not use any data structures because it was not needed.
+
+5.
+I didn't use any inherent algorithms because for the code that I did do, I didn't notice any algorithms that would be useful.

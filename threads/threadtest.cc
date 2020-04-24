@@ -11,6 +11,7 @@
 
 #include "copyright.h"
 #include "system.h"
+#include "../filesys/filehdr.h"
 
 //----------------------------------------------------------------------
 // SimpleThread
@@ -30,6 +31,7 @@ SimpleThread(int which)
 	printf("*** thread %d looped %d times\n", which, num);
         currentThread->Yield();
     }
+
 }
 
 
@@ -42,10 +44,9 @@ void
 ThreadTest()
 {
     DEBUG('t', "Entering ThreadTest");
-
     Thread *t = new Thread("forked thread");
 
-    t->Fork(SimpleThread, 1);
+	t->Fork(SimpleThread, 1);
     SimpleThread(0);
 }
 
